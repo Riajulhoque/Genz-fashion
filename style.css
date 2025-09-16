@@ -4,13 +4,15 @@
   /* font-family: "Bebas Neue", sans-serif; */
   font-family: "Roboto", sans-serif;
 }
-.btn-color{
-  background-image:linear-gradient(180deg, #A4BC46 0%, #85A019 100%) ;
+
+.btn-color {
+  background-image: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
   padding: 18px 18px;
   border-radius: 10px;
   color: aliceblue;
-  
+
 }
+
 header {
   .logo {
     color: #A4BC46;
@@ -19,31 +21,73 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    span{
+
+    span {
       color: #363958;
     }
   }
 }
-#Banner{
+
+#Banner {
   padding-bottom: 70px;
-  .container{
+
+  .container {
     justify-content: space-between;
-    h2{
+
+    h2 {
       margin-top: 40px;
       color: #FABE4C;
       font-family: "Bebas Neue";
       font-size: 80px;
       font-weight: 400;
-      span{
+
+      span {
         color: #363958
       }
     }
-    p{
+
+    p {
       color: #3E3E3E;
       font-family: Roboto;
       font-size: 16px;
       font-weight: 400;
       padding-bottom: 40px;
+    }
+  }
+}
+
+#WomenJacket {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  h2 {
+    color: #363958;
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  .container {
+    justify-content: space-between;
+
+    .card {
+      figure {
+        padding: 10px 20px;
+        border-radius: 20px;
+        background: #F1F1F1;
+        margin: 10px 30px;
+      }
+
+      .card-actions {
+        justify-content: space-between;
+
+        h3 {
+          color: #FABE4C;
+          font-family: Roboto;
+          font-size: 36px;
+          font-weight: 900;
+        }
+      }
+
     }
   }
 }
