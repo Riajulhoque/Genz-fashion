@@ -59,6 +59,7 @@ header {
 #WomenJacket {
   margin-top: 70px;
   margin-bottom: 70px;
+
   h2 {
     color: #363958;
     font-family: "Bebas Neue";
@@ -91,9 +92,11 @@ header {
     }
   }
 }
+
 #ManJacket {
   margin-top: 70px;
   margin-bottom: 70px;
+
   h2 {
     color: #363958;
     font-family: "Bebas Neue";
@@ -123,6 +126,20 @@ header {
         }
       }
 
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #Banner{
+    .container{
+      h2{
+        font-size: 60px;
+        font-weight: 400;
+      }
+      p{
+        font-size: 14px;
+      }
     }
   }
 }
