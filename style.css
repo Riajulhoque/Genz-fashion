@@ -142,4 +142,17 @@ header {
       }
     }
   }
+  #Footer{
+    .Info{
+      .card{
+        figure{
+          img{
+            width: 90px;
+            padding: 10px;
+          }
+          
+        }
+      }
+    }
+  }
 }
